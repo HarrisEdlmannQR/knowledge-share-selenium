@@ -1,5 +1,16 @@
 ## Knowledge Share: Web Scraping w/ Selenium
 
+---
+
+### Install drivers
+
+- Chromedriver download link - https://googlechromelabs.github.io/chrome-for-testing/#stable
+  - For Chrome, find the url corresponding to **chromedriver** and **win64** for the version of chrome that you have installed. 
+Paste the url into your browser to download a zip file and extract the _chromedriver.exe_ file into the repo directory. 
+- Edge WebDriver download link - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver?form=MA13LH
+
+---
+
 ### Task: 
 
 Login to the hub using selenium and extract the greeting message it gives you.
@@ -94,12 +105,3 @@ It tells Selenium to wait up to a specified time
 when trying to find any element(s) if they are not immediately available.
 
 `time.sleep(<seconds>)`: Waits the given amount of time.
-
----
-
-### Useful Resources
-
-- Chromedriver download link - https://googlechromelabs.github.io/chrome-for-testing/#stable
-  - For Chrome, find the url corresponding to **chromedriver** and **win64** for the version of chrome that you have installed. 
-Paste the url into your browser to download a zip file and extract the _chromedriver.exe_ file into this directory. 
-- Edge WebDriver download link - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver?form=MA13LH
