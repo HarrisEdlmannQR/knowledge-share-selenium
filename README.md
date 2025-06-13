@@ -1,4 +1,4 @@
-# Selenium Workshop
+## Knowledge Share: Web Scraping w/ Selenium
 
 ### Task: 
 
@@ -26,6 +26,8 @@ find_element(by=By.TAG_NAME, value="tag name")
 find_element(by=By.CLASS_NAME, value="class name")
 find_element(by=By.CSS_SELECTOR, value="css selector")
 ```
+
+> [Useful docs on how to use find_element options.](#https://selenium-python.readthedocs.io/locating-elements.html)
 
 #### Element Actions
 
@@ -98,4 +100,6 @@ when trying to find any element(s) if they are not immediately available.
 ### Useful Resources
 
 - Chromedriver download link - https://googlechromelabs.github.io/chrome-for-testing/#stable
+  - For Chrome, find the url corresponding to **chromedriver** and **win64** for the version of chrome that you have installed. 
+Paste the url into your browser to download a zip file and extract the _chromedriver.exe_ file into this directory. 
 - Edge WebDriver download link - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver?form=MA13LH
